@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #000, #ff9800);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #25d366;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.big {
+  font-size: 18px;
+  padding: 15px 35px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+.pricing ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pricing li {
+  background: white;
+  margin: 8px auto;
+  padding: 10px;
+  max-width: 400px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.why p {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.cta {
+  background: #222;
+  color: white;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
